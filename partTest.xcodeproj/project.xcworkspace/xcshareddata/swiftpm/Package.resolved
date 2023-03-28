@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "animatingtext",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:rlziii/AnimatingText.git",
+      "state" : {
+        "revision" : "cd4e7797d0b4f07709c177423812b8009669da73",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
