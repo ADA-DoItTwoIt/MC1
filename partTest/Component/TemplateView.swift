@@ -14,6 +14,13 @@ struct TemplateView: View {
     @State private var enemyHP: Int = 10
     @State private var displayString: String = ""
     @State private var isNextButtonDisabled = false
+    @State private var characterList: [String] = [
+        /* 여기다가 말하는 캐릭터 이름 써주세요 */
+        /* lines의 배열 요소 개수와 캐릭터 배열 요소 개수는 동일해야 함 */
+        "승천트럭",
+        "요정아빠같은거"
+    ]
+    
     @State private var lines: [String] = [
         /* 여기다가 대사를 넣어주세요 그러면 끝 */
         "HIHIHIHIHIHI",
@@ -24,7 +31,7 @@ struct TemplateView: View {
         ZStack {
             Color.black.ignoresSafeArea()
             BackgroundVideoView(
-                videoName: "video"
+                videoName: videoName
             )
         }
         .overlay(alignment: .bottom) {
@@ -33,18 +40,18 @@ struct TemplateView: View {
                     Text(displayString)
                         .foregroundColor(.white)
                         .padding([.bottom, .leading], 30)
-                        .applyTextTypingEffect(
-                            with: $displayString,
-                            in: $lines,
-                            lineIndex: $lineIndex,
-                            isNextButtonDisabled: $isNextButtonDisabled
-                        )
+//                        .applyTextTypingEffect(
+//                            with: $displayString,
+//                            in: $lines,
+//                            lineIndex: $lineIndex,
+//                            isNextButtonDisabled: $isNextButtonDisabled
+//                        )
                 }
                 .overlay(alignment: .topLeading) {
-                    Text("Name")
+                    Text(characterList[lineIndex])
                         .foregroundColor(.black)
                         .bold()
-                        .padding(.leading, 75)
+                        .padding(.leading, 65)
                         .padding(.top, 20)
                 }
                 .overlay(alignment: .bottomTrailing) {
