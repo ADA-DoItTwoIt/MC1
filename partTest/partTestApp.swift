@@ -11,8 +11,8 @@ import SwiftUI
 struct partTestApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            SiriView()
+            ContentView()
+//            SiriView()
         }
     }
 }

@@ -13,15 +13,17 @@ struct ContentView: View {
 
         ZStack{
             Color.black.ignoresSafeArea()
+            BackgroundVideoView(forVideoName: "video")
+                .scaledToFit()
             // 배경사진, 채팅팝업사진
-            Image("truck").resizable().scaledToFit()
+//            Image("truck").resizable().scaledToFit()
             Image("landscape mode bubble")
                 .offset(x: -20, y: 120)
             
             // text관련내용들
             Text("SSup").nameTextForm() // 이름 위한 form
             Lines(input: "내...내가 이세계아카데미에 전생하다니..!").FirstBasicLineSetting()
-            Lines(input: "두번째줄 내용 내...내가 이세계아카데미에 전생하다니..!").SecondBasicLineSetting()
+//            Lines(input: "두번째줄 내용 내...내가 이세계아카데미에 전생하다니..!").SecondBasicLineSetting()
             Text("▶︎  Next").nextButtonForm().blinking(duration: 0.5)  //다음버튼위한 form
             
         }
