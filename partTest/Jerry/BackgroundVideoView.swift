@@ -25,11 +25,8 @@ struct PlayerView: UIViewRepresentable {
     }
 }
 
-struct BackgroundVideoView: View {
+struct BackgroundVideoView: View {    
     var videoName: String
-    init(forVideoName vName: String) {
-        videoName = vName
-    }
     var body: some View {
         ZStack{
             GeometryReader{ geo in
