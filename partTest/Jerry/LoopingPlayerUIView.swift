@@ -12,10 +12,11 @@ import AVFoundation
 class LoopingPlayerUIView: UIView {
     private let playerLayer = AVPlayerLayer()
     private var playerLooper: AVPlayerLooper?
+    var isplay: Bool = false
 //    var videoString: String
 //    let videoName: String?
     
-    init(vName: String, frame: CGRect) {
+    init(vName: String, frame: CGRect, isPlay: Bool) {
         super.init(frame: frame)
         // Load the resource -> h
         let fileUrl = Bundle.main.url(forResource: vName, withExtension: "mp4")!
@@ -30,8 +31,9 @@ class LoopingPlayerUIView: UIView {
         // Create a new player looper with the queue player and template item
         playerLooper = AVPlayerLooper(player: player, templateItem: item)
         // Start the movie
-        player.play()
-        
+        if isPlay {
+            player.play()
+        }        
     }
     
     required init?(coder: NSCoder) {

@@ -13,7 +13,7 @@ struct ContentView: View {
 
         ZStack{
             Color.black.ignoresSafeArea()
-            BackgroundVideoView(forVideoName: "video")
+//            BackgroundVideoView(forVideoName: "video")
                 .scaledToFit()
             // 배경사진, 채팅팝업사진
 //            Image("truck").resizable().scaledToFit()

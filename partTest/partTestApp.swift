@@ -11,7 +11,8 @@ import SwiftUI
 struct partTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            BackgroundVideoView(forVideoName: "video")
 //            SiriView()
         }
     }
