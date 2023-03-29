@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5131AC4229D4631400F5F4EE /* FirstHalfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131AC4129D4631400F5F4EE /* FirstHalfView.swift */; };
+		5131AC4629D481A000F5F4EE /* FirstHalfView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131AC4529D481A000F5F4EE /* FirstHalfView2.swift */; };
 		7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */; };
 		7EBC321C29D454010052D98B /* TypeEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC321B29D454010052D98B /* TypeEffectModifier.swift */; };
 		7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B629D42D860060134F /* ShakeEffect.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		5131AC4129D4631400F5F4EE /* FirstHalfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHalfView.swift; sourceTree = "<group>"; };
+		5131AC4529D481A000F5F4EE /* FirstHalfView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHalfView2.swift; sourceTree = "<group>"; };
 		7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleSceneBackground.swift; sourceTree = "<group>"; };
 		7EBC321B29D454010052D98B /* TypeEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEffectModifier.swift; sourceTree = "<group>"; };
 		7EC6D5B629D42D860060134F /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				5131AC4129D4631400F5F4EE /* FirstHalfView.swift */,
+				5131AC4529D481A000F5F4EE /* FirstHalfView2.swift */,
 			);
 			path = Chaekie;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				5131AC4229D4631400F5F4EE /* FirstHalfView.swift in Sources */,
 				AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */,
 				7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */,
+				5131AC4629D481A000F5F4EE /* FirstHalfView2.swift in Sources */,
 				7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */,
 				AC8B8CF829D47B7500EBC649 /* SsupTemplateView.swift in Sources */,
 				AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */,
