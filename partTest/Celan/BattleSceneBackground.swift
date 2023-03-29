@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BattleSceneBackground: View {
+    @State private var isGoingToNextView: Bool = false
     @State private var isSelectingBehavior: Bool = false
     @State private var isRunning: Bool = false
     @State private var isDisplaying: Bool = false
@@ -129,37 +130,37 @@ struct BattleSceneBackground: View {
             Image("Noname bubble")
                 .overlay(alignment: .topLeading) {
                     if !isRunning {
-                        Text(isSelectingBehavior ? "" : displayString)
+                        Text(isSelectingBehavior ? "" : lines[lineIndex])
                             .foregroundColor(lineIndex != 5 ? .white : .red)
                             .font(.system(size: 24))
                             .bold()
                             .padding([.top, .leading], 30)
-                            .animation(.spring(), value: lineIndex)
-                            .applyTextTypingEffect(
-                                with: $displayString,
-                                in: $lines,
-                                lineIndex: $lineIndex,
-                                isNextButtonDisabled: $isNextButtonDisabled
-                            )
+//                            .animation(.spring(), value: lineIndex)
+//                            .applyTextTypingEffect(
+//                                with: $displayString,
+//                                in: $lines,
+//                                lineIndex: $lineIndex,
+//                                isNextButtonDisabled: $isNextButtonDisabled
+//                            )
                     } else if isRunning {
                         ZStack(alignment: .leading) {
-                            Text(displayString)
+                            Text(runString)
                                 .foregroundColor(.red)
                                 .font(.system(size: 24))
                                 .bold()
                                 .padding([.top, .leading], 30)
-                                .onAppear {
-                                    displayString = ""
-                                    isNextButtonDisabled = true
-                                    runString.enumerated().forEach { index, character in
-                                        DispatchQueue.main.asyncAfter(deadline: .now() + Double(index) * 0.08) {
-                                            displayString += String(character)
-                                            if displayString == runString {
-                                                isNextButtonDisabled = false
-                                            }
-                                        }
-                                    }
-                                }
+//                                .onAppear {
+//                                    displayString = ""
+//                                    isNextButtonDisabled = true
+//                                    runString.enumerated().forEach { index, character in
+//                                        DispatchQueue.main.asyncAfter(deadline: .now() + Double(index) * 0.08) {
+//                                            displayString += String(character)
+//                                            if displayString == runString {
+//                                                isNextButtonDisabled = false
+//                                            }
+//                                        }
+//                                    }
+//                                }
                         }
                         
                     }
@@ -184,6 +185,8 @@ struct BattleSceneBackground: View {
                                         } else if lineIndex == 10 {
                                             enemyHP -= 1
                                         }
+                                    } else {
+                                        isGoingToNextView.toggle()
                                     }
                                 }
                             }
@@ -253,6 +256,15 @@ struct BattleSceneBackground: View {
                     }
                 }
         }
+        .overlay {
+            NavigationLink(isActive: $isGoingToNextView) {
+                SsupTemplateView()
+                    .navigationBarBackButtonHidden()
+            } label: {
+                EmptyView()
+            }
+
+        }
     }
     
     private func getForegroundColor() -> Color {
@@ -270,7 +282,9 @@ struct BattleSceneBackground: View {
 
 struct BattleSceneView_Previews: PreviewProvider {
     static var previews: some View {
-        BattleSceneBackground()
+        NavigationView {
+            BattleSceneBackground()
+        }
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
