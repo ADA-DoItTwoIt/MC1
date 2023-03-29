@@ -135,30 +135,12 @@ struct BattleSceneBackground: View {
                             .bold()
                             .padding([.top, .leading], 30)
                             .animation(.spring(), value: lineIndex)
-                            .onChange(of: lineIndex) { _ in
-                                isNextButtonDisabled = true
-                                displayString = ""
-                                lines[lineIndex].enumerated().forEach { index, character in
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + Double(index) * 0.05) {
-                                        displayString += String(character)
-                                        if displayString == lines[lineIndex] {
-                                            isNextButtonDisabled = false
-                                        }
-                                    }
-                                }
-                            }
-                            .onAppear {
-                                isNextButtonDisabled = true
-                                displayString = ""
-                                lines[0].enumerated().forEach { index, character in
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + Double(index) * 0.05) {
-                                        displayString += String(character)
-                                        if displayString == lines[lineIndex] {
-                                            isNextButtonDisabled = false
-                                        }
-                                    }
-                                }
-                            }
+                            .applyTextTypingEffect(
+                                with: $displayString,
+                                in: $lines,
+                                lineIndex: $lineIndex,
+                                isNextButtonDisabled: $isNextButtonDisabled
+                            )
                     } else if isRunning {
                         ZStack(alignment: .leading) {
                             Text(displayString)
