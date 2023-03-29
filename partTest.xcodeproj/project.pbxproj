@@ -12,7 +12,6 @@
 		7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B629D42D860060134F /* ShakeEffect.swift */; };
 		7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B829D434560060134F /* ParticleEffect.swift */; };
 		7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8EFF329D2CC17009595D6 /* TestTestView.swift */; };
-		7EC8EFF729D2CE7E009595D6 /* SceneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8EFF629D2CE7E009595D6 /* SceneData.swift */; };
 		86AB2D0729D3DD22000F3D06 /* BackgroundVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB2D0629D3DD22000F3D06 /* BackgroundVideoView.swift */; };
 		86AB2D0929D3DD26000F3D06 /* LoopingPlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB2D0829D3DD26000F3D06 /* LoopingPlayerUIView.swift */; };
 		86AB2D0F29D3DF0A000F3D06 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 86AB2D0E29D3DF0A000F3D06 /* video.mp4 */; };
@@ -32,7 +31,6 @@
 		7EC6D5B629D42D860060134F /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
 		7EC6D5B829D434560060134F /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
 		7EC8EFF329D2CC17009595D6 /* TestTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTestView.swift; sourceTree = "<group>"; };
-		7EC8EFF629D2CE7E009595D6 /* SceneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneData.swift; sourceTree = "<group>"; };
 		86AB2D0629D3DD22000F3D06 /* BackgroundVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideoView.swift; sourceTree = "<group>"; };
 		86AB2D0829D3DD26000F3D06 /* LoopingPlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingPlayerUIView.swift; sourceTree = "<group>"; };
 		86AB2D0E29D3DF0A000F3D06 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
@@ -66,12 +64,6 @@
 			path = Celan;
 			sourceTree = "<group>";
 		};
-		7EC8EFF529D2CE74009595D6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7EC8EFF629D2CE7E009595D6 /* SceneData.swift */,
-			);
-			path = Model;
 		86AB2D0529D3DD11000F3D06 /* Jerry */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				7E3C9DCD29D3D4110047D6D6 /* Celan */,
-				7EC8EFF529D2CE74009595D6 /* Model */,
 				86AB2D0529D3DD11000F3D06 /* Jerry */,
 				ACDDC65929D0AB7200404216 /* partTestApp.swift */,
 				ACDDC65B29D0AB7200404216 /* ContentView.swift */,
@@ -222,7 +213,6 @@
 				86AB2D0729D3DD22000F3D06 /* BackgroundVideoView.swift in Sources */,
 				ACDDC65C29D0AB7200404216 /* ContentView.swift in Sources */,
 				AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */,
-				7EC8EFF729D2CE7E009595D6 /* SceneData.swift in Sources */,
 				7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */,
 				7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */,
 				AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */,
