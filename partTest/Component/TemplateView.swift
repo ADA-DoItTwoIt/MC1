@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct TemplateView: View {
-    let videoName: String
+    @State private var videoName: [String] = [
+        /* 비디오 이름 배열 */
+        "video",
+        "video"
+    ]
     
     @State private var lineIndex: Int = 0
     @State private var enemyHP: Int = 10
@@ -31,13 +35,13 @@ struct TemplateView: View {
         ZStack {
             Color.black.ignoresSafeArea()
             BackgroundVideoView(
-                videoName: videoName
+                videoName: videoName[lineIndex]
             )
         }
         .overlay(alignment: .bottom) {
             Image("bubble")
                 .overlay(alignment: .leading) {
-                    Text(displayString)
+                    Text(lines[lineIndex])
                         .foregroundColor(.white)
                         .padding([.bottom, .leading], 30)
 //                        .applyTextTypingEffect(
@@ -80,7 +84,7 @@ struct TemplateView: View {
 
 struct TemplateView_Previews: PreviewProvider {
     static var previews: some View {
-        TemplateView(videoName: "video")
+        TemplateView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

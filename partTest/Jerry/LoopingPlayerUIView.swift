@@ -29,6 +29,7 @@ class LoopingPlayerUIView: UIView {
         // Create a new player looper with the queue player and template item
         playerLooper = AVPlayerLooper(player: player, templateItem: item)
         // Start the movie
+        player.isMuted = true
         player.play()
     }
     
