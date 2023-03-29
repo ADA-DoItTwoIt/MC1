@@ -17,7 +17,11 @@ struct PlayerView: UIViewRepresentable {
     func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<PlayerView>) { }
     
     func makeUIView(context: Context) -> UIView {
-        return LoopingPlayerUIView(vName: videoName, frame: .zero)
+        return LoopingPlayerUIView(
+            vName: videoName,
+            frame: .zero
+        )
+        
     }
 }
 
@@ -30,14 +34,9 @@ struct BackgroundVideoView: View {
         ZStack{
             GeometryReader{ geo in
                 PlayerView(vName: videoName)
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: geo.size.width, height: geo.size.height+100)
-                    .edgesIgnoringSafeArea(.all)
-                    .overlay(Color.black.opacity(0.2))
-                    .blur(radius: 1)
-                    .edgesIgnoringSafeArea(.all)
             }
         }
     }
 }
+
 
