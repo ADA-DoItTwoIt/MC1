@@ -11,11 +11,7 @@ struct TestTestView: View {
     @State private var sceneData: [SceneData] = []
     
     var body: some View {
-        ContentView(
-            imageName: "truck",
-            speaker: "Ssup",
-            firstLine: "1번줄ㅇㅇㅇㅇㅇㅇ"
-        )
+        ContentView()
     }
 }
 
