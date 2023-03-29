@@ -58,6 +58,7 @@
 		AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02629D1DA660074C21C /* Text+Extension.swift */; };
 		AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */; };
 		AC12C02D29D1E77C0074C21C /* TypingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02C29D1E77C0074C21C /* TypingEffect.swift */; };
+		AC8B8CF829D47B7500EBC649 /* SsupTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B8CF729D47B7500EBC649 /* SsupTemplateView.swift */; };
 		ACDC653D29D217F500C6C12B /* SiriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC653C29D217F500C6C12B /* SiriView.swift */; };
 		ACDDC65A29D0AB7200404216 /* partTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDDC65929D0AB7200404216 /* partTestApp.swift */; };
 		ACDDC65C29D0AB7200404216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDDC65B29D0AB7200404216 /* ContentView.swift */; };
@@ -117,6 +118,7 @@
 		AC12C02629D1DA660074C21C /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingEffect.swift; sourceTree = "<group>"; };
 		AC12C02C29D1E77C0074C21C /* TypingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffect.swift; sourceTree = "<group>"; };
+		AC8B8CF729D47B7500EBC649 /* SsupTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SsupTemplateView.swift; sourceTree = "<group>"; };
 		ACDC653C29D217F500C6C12B /* SiriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriView.swift; sourceTree = "<group>"; };
 		ACDDC65629D0AB7200404216 /* partTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDDC65929D0AB7200404216 /* partTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partTestApp.swift; sourceTree = "<group>"; };
@@ -243,6 +245,14 @@
 			path = Effect;
 			sourceTree = "<group>";
 		};
+		AC8B8CF629D47B4900EBC649 /* Ssup */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B8CF729D47B7500EBC649 /* SsupTemplateView.swift */,
+			);
+			path = Ssup;
+			sourceTree = "<group>";
+		};
 		ACDDC64D29D0AB7200404216 = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +273,7 @@
 		ACDDC65829D0AB7200404216 /* partTest */ = {
 			isa = PBXGroup;
 			children = (
+				AC8B8CF629D47B4900EBC649 /* Ssup */,
 				7EE05D6229D46A3F0095A3B9 /* Component */,
 				A9FF1F5729D473DF008C12A0 /* Hayo */,
 				7E3C9DCD29D3D4110047D6D6 /* Celan */,
@@ -406,6 +417,7 @@
 				AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */,
 				7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */,
 				7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */,
+				AC8B8CF829D47B7500EBC649 /* SsupTemplateView.swift in Sources */,
 				AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */,
 				7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */,
 				86AB2D0929D3DD26000F3D06 /* LoopingPlayerUIView.swift in Sources */,
