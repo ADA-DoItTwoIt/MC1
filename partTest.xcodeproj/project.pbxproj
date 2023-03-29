@@ -56,6 +56,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		515753A029D460B800E109BC /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		7E3C9DCD29D3D4110047D6D6 /* Celan */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +106,7 @@
 			children = (
 				ACDDC65829D0AB7200404216 /* partTest */,
 				ACDDC65729D0AB7200404216 /* Products */,
+				515753A029D460B800E109BC /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};

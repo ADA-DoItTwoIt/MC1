@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct TestTestView: View {
-    @State private var sceneData: [SceneData] = []
-    
     var body: some View {
         ContentView()
     }
