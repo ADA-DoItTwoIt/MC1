@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */; };
+		7EBC321C29D454010052D98B /* TypeEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC321B29D454010052D98B /* TypeEffectModifier.swift */; };
 		7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B629D42D860060134F /* ShakeEffect.swift */; };
 		7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B829D434560060134F /* ParticleEffect.swift */; };
 		7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8EFF329D2CC17009595D6 /* TestTestView.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleSceneBackground.swift; sourceTree = "<group>"; };
+		7EBC321B29D454010052D98B /* TypeEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEffectModifier.swift; sourceTree = "<group>"; };
 		7EC6D5B629D42D860060134F /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
 		7EC6D5B829D434560060134F /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
 		7EC8EFF329D2CC17009595D6 /* TestTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTestView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				AC12C02C29D1E77C0074C21C /* TypingEffect.swift */,
 				7EC6D5B629D42D860060134F /* ShakeEffect.swift */,
 				7EC6D5B829D434560060134F /* ParticleEffect.swift */,
+				7EBC321B29D454010052D98B /* TypeEffectModifier.swift */,
 			);
 			path = Effect;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */,
 				7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */,
 				AC12C02D29D1E77C0074C21C /* TypingEffect.swift in Sources */,
+				7EBC321C29D454010052D98B /* TypeEffectModifier.swift in Sources */,
 				ACDDC65A29D0AB7200404216 /* partTestApp.swift in Sources */,
 				7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */,
 				ACDC653D29D217F500C6C12B /* SiriView.swift in Sources */,
