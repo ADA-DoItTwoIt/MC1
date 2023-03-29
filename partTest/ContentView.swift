@@ -5,7 +5,6 @@
 //  Created by sup on 2023/03/27.
 //
 
-//import AnimatingText
 import SwiftUI
 
 struct ContentView: View {
