@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */; };
+		7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B629D42D860060134F /* ShakeEffect.swift */; };
+		7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B829D434560060134F /* ParticleEffect.swift */; };
+		7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8EFF329D2CC17009595D6 /* TestTestView.swift */; };
+		7EC8EFF729D2CE7E009595D6 /* SceneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8EFF629D2CE7E009595D6 /* SceneData.swift */; };
 		AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02629D1DA660074C21C /* Text+Extension.swift */; };
 		AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */; };
 		AC12C02D29D1E77C0074C21C /* TypingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02C29D1E77C0074C21C /* TypingEffect.swift */; };
@@ -15,10 +20,14 @@
 		ACDDC65C29D0AB7200404216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDDC65B29D0AB7200404216 /* ContentView.swift */; };
 		ACDDC65E29D0AB7300404216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDDC65D29D0AB7300404216 /* Assets.xcassets */; };
 		ACDDC66129D0AB7300404216 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDDC66029D0AB7300404216 /* Preview Assets.xcassets */; };
-		ACDDC68629D0C98F00404216 /* AnimatingText in Frameworks */ = {isa = PBXBuildFile; productRef = ACDDC68529D0C98F00404216 /* AnimatingText */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleSceneBackground.swift; sourceTree = "<group>"; };
+		7EC6D5B629D42D860060134F /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		7EC6D5B829D434560060134F /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
+		7EC8EFF329D2CC17009595D6 /* TestTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTestView.swift; sourceTree = "<group>"; };
+		7EC8EFF629D2CE7E009595D6 /* SceneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneData.swift; sourceTree = "<group>"; };
 		AC12C02629D1DA660074C21C /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingEffect.swift; sourceTree = "<group>"; };
 		AC12C02C29D1E77C0074C21C /* TypingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffect.swift; sourceTree = "<group>"; };
@@ -35,13 +44,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDDC68629D0C98F00404216 /* AnimatingText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E3C9DCD29D3D4110047D6D6 /* Celan */ = {
+			isa = PBXGroup;
+			children = (
+				7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */,
+			);
+			path = Celan;
+			sourceTree = "<group>";
+		};
+		7EC8EFF529D2CE74009595D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8EFF629D2CE7E009595D6 /* SceneData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AC12C02829D1DB740074C21C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +79,8 @@
 			children = (
 				AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */,
 				AC12C02C29D1E77C0074C21C /* TypingEffect.swift */,
+				7EC6D5B629D42D860060134F /* ShakeEffect.swift */,
+				7EC6D5B829D434560060134F /* ParticleEffect.swift */,
 			);
 			path = Effect;
 			sourceTree = "<group>";
@@ -78,8 +104,11 @@
 		ACDDC65829D0AB7200404216 /* partTest */ = {
 			isa = PBXGroup;
 			children = (
+				7E3C9DCD29D3D4110047D6D6 /* Celan */,
+				7EC8EFF529D2CE74009595D6 /* Model */,
 				ACDDC65929D0AB7200404216 /* partTestApp.swift */,
 				ACDDC65B29D0AB7200404216 /* ContentView.swift */,
+				7EC8EFF329D2CC17009595D6 /* TestTestView.swift */,
 				ACDC653C29D217F500C6C12B /* SiriView.swift */,
 				AC12C02929D1E6F20074C21C /* Effect */,
 				AC12C02829D1DB740074C21C /* Extension */,
@@ -114,7 +143,6 @@
 			);
 			name = partTest;
 			packageProductDependencies = (
-				ACDDC68529D0C98F00404216 /* AnimatingText */,
 			);
 			productName = partTest;
 			productReference = ACDDC65629D0AB7200404216 /* partTest.app */;
@@ -145,7 +173,6 @@
 			);
 			mainGroup = ACDDC64D29D0AB7200404216;
 			packageReferences = (
-				ACDDC68429D0C98F00404216 /* XCRemoteSwiftPackageReference "AnimatingText" */,
 			);
 			productRefGroup = ACDDC65729D0AB7200404216 /* Products */;
 			projectDirPath = "";
@@ -175,9 +202,14 @@
 			files = (
 				ACDDC65C29D0AB7200404216 /* ContentView.swift in Sources */,
 				AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */,
+				7EC8EFF729D2CE7E009595D6 /* SceneData.swift in Sources */,
+				7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */,
+				7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */,
 				AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */,
+				7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */,
 				AC12C02D29D1E77C0074C21C /* TypingEffect.swift in Sources */,
 				ACDDC65A29D0AB7200404216 /* partTestApp.swift in Sources */,
+				7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */,
 				ACDC653D29D217F500C6C12B /* SiriView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,25 +411,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		ACDDC68429D0C98F00404216 /* XCRemoteSwiftPackageReference "AnimatingText" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:rlziii/AnimatingText.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		ACDDC68529D0C98F00404216 /* AnimatingText */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACDDC68429D0C98F00404216 /* XCRemoteSwiftPackageReference "AnimatingText" */;
-			productName = AnimatingText;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACDDC64E29D0AB7200404216 /* Project object */;
 }
