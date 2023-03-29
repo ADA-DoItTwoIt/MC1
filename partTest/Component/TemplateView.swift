@@ -10,7 +10,6 @@ import SwiftUI
 struct TemplateView: View {
     let videoName: String
     
-    @State private var isPlay: Bool = false
     @State private var lineIndex: Int = 0
     @State private var enemyHP: Int = 10
     @State private var displayString: String = ""
@@ -25,7 +24,6 @@ struct TemplateView: View {
         ZStack {
             Color.black.ignoresSafeArea()
             BackgroundVideoView(
-                isPlay: $isPlay,
                 videoName: "video"
             )
         }
@@ -51,8 +49,11 @@ struct TemplateView: View {
                 }
                 .overlay(alignment: .bottomTrailing) {
                     Button {
-//                        lineIndex += 1
-                        isPlay.toggle()
+                        if lineIndex < lines.count - 1 {
+                            lineIndex += 1
+                        } else if lineIndex == lines.count - 1{
+                            // TODO: - "전투씬으로 가거나 후반씬으로 이동시키기"
+                        }
                     } label: {
                         Text("▶︎  다음")
                             .foregroundColor(.white)

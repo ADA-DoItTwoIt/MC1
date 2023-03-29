@@ -11,36 +11,29 @@ import AVKit
 
 struct PlayerView: UIViewRepresentable {
     var videoName: String
-    var isPlay: Bool
-    init(vName: String, isPlay: Bool) {
+    init(vName: String) {
         videoName = vName
-        self.isPlay = isPlay
     }
     func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<PlayerView>) { }
     
     func makeUIView(context: Context) -> UIView {
-        return LoopingPlayerUIView(vName: videoName, frame: .zero, isPlay: isPlay)
+        return LoopingPlayerUIView(
+            vName: videoName,
+            frame: .zero
+        )
+        
     }
 }
 
-struct BackgroundVideoView: View {
-    @Binding var isPlay: Bool
-    
+struct BackgroundVideoView: View {    
     var videoName: String
     var body: some View {
-        PlayerView(vName: videoName, isPlay: isPlay)
-        
-//        ZStack{
-//            GeometryReader { geo in
-//                PlayerView(vName: videoName)
-//                    .aspectRatio(contentMode: .fill)
-//                    .frame(width: geo.size.width, height: geo.size.height+100)
-//                    .edgesIgnoringSafeArea(.all)
-//                    .overlay(Color.black.opacity(0.2))
-//                    .blur(radius: 1)
-//                    .edgesIgnoringSafeArea(.all)
-//            }
-//        }
+        ZStack{
+            GeometryReader{ geo in
+                PlayerView(vName: videoName)
+            }
+        }
     }
 }
+
 
