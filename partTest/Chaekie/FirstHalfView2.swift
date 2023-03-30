@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct FirstHalfView2: View {
     @State private var isGoingToNextView: Bool = false
@@ -175,7 +176,15 @@ struct FirstHalfView2: View {
                                 SoundSetting.instance.playSound(formusicName: MusicList1[lineIndex])
                             }
                             .onChange(of: lineIndex) { newValue in
-                                SoundSetting.instance.playSound(formusicName: MusicList1[lineIndex])
+                                if(newValue == 6 || newValue == 7 || newValue == 8 || newValue == 16) {
+                                    SoundSetting.instance.stop()
+                                    
+                                    var utterance = SiriModel.getAVSpeechUtterance(string: lines[newValue])
+                                    //                                    utterance.rate = 0.5
+                                    SiriModel.avSpeechSynthesizer.speak(utterance)
+                                } else {
+                                    SoundSetting.instance.playSound(formusicName: MusicList1[lineIndex])
+                                }
                             }
                     }
                     .overlay(alignment: .topLeading) {
@@ -214,7 +223,7 @@ struct FirstHalfView2: View {
             } label: {
                 EmptyView()
             }
-
+            
         }
     }
 }
@@ -224,6 +233,6 @@ struct FirstHalfView2_Previews: PreviewProvider {
         NavigationView {
             FirstHalfView2()
         }
-            .previewInterfaceOrientation(.landscapeLeft)
+        .previewInterfaceOrientation(.landscapeLeft)
     }
 }

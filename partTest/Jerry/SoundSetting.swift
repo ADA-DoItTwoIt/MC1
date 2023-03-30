@@ -26,7 +26,9 @@ final class SoundSetting: ObservableObject {
         }
     }
 
-
+    func stop() {
+        player = nil
+    }
 
 }
 
