@@ -11,12 +11,15 @@ import AVKit
 final class SoundSetting: ObservableObject {
     static let instance = SoundSetting()
     var player: AVAudioPlayer?
+    let speedControl = AVAudioUnitVarispeed()
     
     func playSound(formusicName musicName: String) {
-        guard let url = Bundle.main.url(forResource: "0.죽어라 닝겐", withExtension: ".mp3") else { return }
+        guard let url = Bundle.main.url(forResource: musicName, withExtension: ".mp3") else { return }
         
         do {
+            player?.enableRate = true
             player = try AVAudioPlayer(contentsOf: url)
+            player?.rate = 2.0
             player?.play()
         } catch let error {
              print("재생하는데 오류가 발생했습니다. \(error.localizedDescription)")

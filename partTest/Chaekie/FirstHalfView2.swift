@@ -171,6 +171,12 @@ struct FirstHalfView2: View {
                         Text(lines[lineIndex])
                             .foregroundColor(lineIndex == 0 ? .red : .white)
                             .padding([.bottom, .leading], 30)
+                            .onAppear() {
+                                SoundSetting.instance.playSound(formusicName: MusicList1[lineIndex])
+                            }
+                            .onChange(of: lineIndex) { newValue in
+                                SoundSetting.instance.playSound(formusicName: MusicList1[lineIndex])
+                            }
                     }
                     .overlay(alignment: .topLeading) {
                         Text(characterList[lineIndex])

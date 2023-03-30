@@ -122,6 +122,12 @@ struct SsupTemplateView: View {
                         .foregroundColor(.white)
                         .padding([.bottom, .leading], 30)
                 }
+                .onAppear() {
+                    SoundSetting.instance.playSound(formusicName: MusicList3[lineIndex])
+                }
+                .onChange(of: lineIndex) { newValue in
+                    SoundSetting.instance.playSound(formusicName: MusicList3[lineIndex])
+                }
                 .overlay(alignment: .topLeading) {
                     Text(characterList[lineIndex])
                         .foregroundColor(.black)
