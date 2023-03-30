@@ -127,11 +127,7 @@ struct SsupTemplateView: View {
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
-<<<<<<< HEAD
-            BackgroundVideoView(
-                videoName: $videoName[lineIndex]
-            )
-=======
+
             if lineIndex == 2 || lineIndex == 3 ||  lineIndex ==  12 || lineIndex == 13 || lineIndex == 15 || lineIndex ==  16 || lineIndex ==  17 {
                  // 이미지 보여주기
                 Image("썹Scene\(lineIndex)")
@@ -153,9 +149,8 @@ struct SsupTemplateView: View {
                 }
             } else {
                 BackgroundVideoView(
-                    videoName: videoName[lineIndex])
+                    videoName: $videoName[lineIndex])
                 }
->>>>>>> f3f91ee (image , video edit)
         }
         .overlay(alignment: .bottom) {
             
