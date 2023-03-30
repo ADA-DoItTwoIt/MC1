@@ -110,7 +110,7 @@ struct SsupTemplateView: View {
         ZStack {
             Color.black.ignoresSafeArea()
             BackgroundVideoView(
-                videoName: videoName[lineIndex]
+                videoName: $videoName[lineIndex]
             )
         }
         .overlay(alignment: .bottom) {

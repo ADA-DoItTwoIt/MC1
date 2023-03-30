@@ -10,10 +10,8 @@ import AVKit
 
 
 struct PlayerView: UIViewRepresentable {
-    var videoName: String
-    init(vName: String) {
-        videoName = vName
-    }
+    @Binding var videoName: String
+    
     func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<PlayerView>) { }
     
     func makeUIView(context: Context) -> UIView {
@@ -26,11 +24,11 @@ struct PlayerView: UIViewRepresentable {
 }
 
 struct BackgroundVideoView: View {    
-    var videoName: String
+    @Binding var videoName: String
     var body: some View {
         ZStack{
             GeometryReader{ geo in
-                PlayerView(vName: videoName)
+                PlayerView(videoName: $videoName)
             }
         }
     }

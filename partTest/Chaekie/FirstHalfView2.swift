@@ -10,32 +10,6 @@ import AVFoundation
 
 struct FirstHalfView2: View {
     @State private var isGoingToNextView: Bool = false
-    @State private var videoName: [String] = [
-        /* 비디오 이름 배열 */
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-        "video",
-    ]
-    
     @State private var lineIndex: Int = 0
     @State private var enemyHP: Int = 10
     @State private var displayString: String = ""
@@ -102,7 +76,7 @@ struct FirstHalfView2: View {
         // 9
         "(우리는 곧바로 MC1 던전으로 들어갔다.\n던전 안은 어둡고 조용했으나,\n우리는 옆에 있는 우리를 믿고 더욱 깊게 걸어갈 수 있었다.)",
         // 10
-        "던전에서의 첫째날, 우리는 던전의 주제인 “이세계(아카데미) 라이프”를 해결하기 위해 다같이 협력했다.",
+        "던전에서의 첫째날, 우리는 던전의 주제인 “이세계(아카데미) 라이프”를 해결하기 위해 다같이\n협력했다.",
         // 11
         "앗, 두 갈림길이다!",
         // 12
@@ -110,7 +84,7 @@ struct FirstHalfView2: View {
         // 13
         "오, 좋은데요? 바로 가시죠!",
         // 14
-        "(길을 걷는 내내 우리는 위화감에 휩싸였고 우리가 솔루션을 내기에 준비되지 않은 상태였다는 것을 깨달았다.)",
+        "(길을 걷는 내내 우리는 위화감에 휩싸였고 우리가 솔루션을 내기에 준비되지 않은 상태였다는\n것을 깨달았다.)",
         // 15
         "(그 순간…)",
         // 16
@@ -120,6 +94,47 @@ struct FirstHalfView2: View {
         // 18
         "질문의 길은 사실 질문 지옥이었다"
     ]
+    @State private var videoName: [String] = [
+        /* 비디오 이름 배열 */
+        // 0
+        "Scene0",
+        // 1
+        "video",
+        // 2
+        "video",
+        // 3
+        "Scene3",
+        // 4
+        "Scene4",
+        // 5
+        "Scene5",
+        // 6
+        "Scene6",
+        // 7
+        "Scene7,8",
+        // 8
+        "Scene7,8",
+        // 9
+        "Scene9",
+        // 10
+        "Scene10",
+        // 11
+        "Scene11,12",
+        // 12
+        "Scene11,12",
+        // 13
+        "Scene13",
+        // 14
+        "Scene14",
+        // 15
+        "Scene14",
+        // 16
+        "Scene6",
+        // 17
+        "Scene17",
+        // 18
+        "Scene18",
+    ]
     
     var body: some View {
         ZStack {
@@ -127,9 +142,16 @@ struct FirstHalfView2: View {
                 Color.white.ignoresSafeArea()
             } else {
                 Color.black.ignoresSafeArea()
-                BackgroundVideoView(
-                    videoName: videoName[lineIndex]
-                )
+                if lineIndex == 3 || lineIndex == 4 || lineIndex == 5 || lineIndex == 10 || lineIndex == 11 || lineIndex == 12 {
+                    Image(videoName[lineIndex])
+                        .resizable()
+                        .scaledToFit()
+                        .edgesIgnoringSafeArea(.all)
+                } else {
+                    BackgroundVideoView(
+                        videoName: $videoName[lineIndex]
+                    )
+                }
             }
         }
         .overlay(alignment: lineIndex == 2 ? .center : .bottom) {
@@ -167,11 +189,14 @@ struct FirstHalfView2: View {
                         .font(.title2)
                     })
             } else {
+                
                 Image("bubble")
-                    .overlay(alignment: .leading) {
+                    .overlay(alignment: .topLeading) {
                         Text(lines[lineIndex])
+                            .bold()
+                            .font(lineIndex == 0 || lineIndex == 1 ? .title : .title3)
                             .foregroundColor(lineIndex == 0 ? .red : .white)
-                            .padding([.bottom, .leading], 30)
+                            .offset(x: 30, y: 70)
                             .onAppear() {
                                 SoundSetting.instance.playSound(formusicName: MusicList1[lineIndex])
                             }
@@ -188,11 +213,25 @@ struct FirstHalfView2: View {
                             }
                     }
                     .overlay(alignment: .topLeading) {
-                        Text(characterList[lineIndex])
-                            .foregroundColor(lineIndex == 0 ? .red : .black)
-                            .bold()
-                            .padding(.leading, 65)
-                            .padding(.top, 20)
+                        if lineIndex == 6 || lineIndex == 7 || lineIndex == 8 || lineIndex == 16 {
+                            Image("Scene6_요정아빠_로고")
+                                .resizable()
+                                .frame(width: 100, height: 35)
+                                .offset(x: 48, y: 15)
+                        } else {
+                            Text(characterList[lineIndex])
+                                .foregroundColor(lineIndex == 0 ? .red : .black)
+                                .bold()
+                                .font(.title)
+                                .frame(width: 100, height: 30)
+                                .offset(x: 50, y: 15)
+                        }
+                    }
+                    .overlay(alignment: .topLeading) {
+                        Image(lineIndex == 12 ? "jerry" : lineIndex == 13 ? "hayo" : "")
+                            .resizable()
+                            .frame(width: 90, height: 100)
+                            .offset(x: 140, y: -30)
                     }
                     .overlay(alignment: .bottomTrailing) {
                         Button {
