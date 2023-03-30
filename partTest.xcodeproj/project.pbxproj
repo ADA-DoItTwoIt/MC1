@@ -10,6 +10,9 @@
 		5131AC4229D4631400F5F4EE /* FirstHalfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131AC4129D4631400F5F4EE /* FirstHalfView.swift */; };
 		5131AC4629D481A000F5F4EE /* FirstHalfView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131AC4529D481A000F5F4EE /* FirstHalfView2.swift */; };
 		7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */; };
+		7E718AFF29D556BC000D1469 /* SoundSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E718AFC29D556BC000D1469 /* SoundSetting.swift */; };
+		7E718B0029D556BC000D1469 /* SoundList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E718AFD29D556BC000D1469 /* SoundList.swift */; };
+		7E718B0129D556BC000D1469 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7E718AFE29D556BC000D1469 /* video.mp4 */; };
 		7EBC321C29D454010052D98B /* TypeEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC321B29D454010052D98B /* TypeEffectModifier.swift */; };
 		7EC6D5B729D42D860060134F /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B629D42D860060134F /* ShakeEffect.swift */; };
 		7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6D5B829D434560060134F /* ParticleEffect.swift */; };
@@ -72,6 +75,9 @@
 		5131AC4129D4631400F5F4EE /* FirstHalfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHalfView.swift; sourceTree = "<group>"; };
 		5131AC4529D481A000F5F4EE /* FirstHalfView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHalfView2.swift; sourceTree = "<group>"; };
 		7E3C9DCE29D3D4980047D6D6 /* BattleSceneBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleSceneBackground.swift; sourceTree = "<group>"; };
+		7E718AFC29D556BC000D1469 /* SoundSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundSetting.swift; path = "../../../../Downloads/MC1-main/partTest/Jerry/SoundSetting.swift"; sourceTree = "<group>"; };
+		7E718AFD29D556BC000D1469 /* SoundList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundList.swift; path = "../../../../Downloads/MC1-main/partTest/Jerry/SoundList.swift"; sourceTree = "<group>"; };
+		7E718AFE29D556BC000D1469 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = "../../../../Downloads/MC1-main/partTest/Jerry/video.mp4"; sourceTree = "<group>"; };
 		7EBC321B29D454010052D98B /* TypeEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEffectModifier.swift; sourceTree = "<group>"; };
 		7EC6D5B629D42D860060134F /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
 		7EC6D5B829D434560060134F /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 				86AB2D0E29D3DF0A000F3D06 /* video.mp4 */,
 				86AB2D0629D3DD22000F3D06 /* BackgroundVideoView.swift */,
 				86AB2D0829D3DD26000F3D06 /* LoopingPlayerUIView.swift */,
+				7E718AFD29D556BC000D1469 /* SoundList.swift */,
+				7E718AFC29D556BC000D1469 /* SoundSetting.swift */,
+				7E718AFE29D556BC000D1469 /* video.mp4 */,
 			);
 			path = Jerry;
 			sourceTree = "<group>";
@@ -399,6 +408,7 @@
 				A9FF1F8429D4740C008C12A0 /* 섭0.몬스터를 해치우자- 설문지 보스가 등장했다-.mp3 in Resources */,
 				A9FF1F7F29D4740C008C12A0 /* 전투3.우리는 토론하기를 시전했다- -그럼 이세계 라이프에서만 가져갈 수 있는 것은 뭘까요---.mp3 in Resources */,
 				A9FF1FAB29D47A49008C12A0 /* 13.오- 좋은데요- 바로 가시죠-.mp3 in Resources */,
+				7E718B0129D556BC000D1469 /* video.mp4 in Resources */,
 				A9FF1F9629D4740C008C12A0 /* 0.죽어라 닝겐.mp3 in Resources */,
 				A9FF1F8D29D4740C008C12A0 /* 섭4.다행히 우리는 설문지 보스를 해치우고 5개의 무기를 얻을 수 있었다-.mp3 in Resources */,
 				A9FF1F8329D4740C008C12A0 /* 14.길을 걷는 내내 우리는 위화감에 휩싸였고 우리가 솔루션을 내기에 준비되지 않은 상태였다는 것을 깨달았다--.mp3 in Resources */,
@@ -435,11 +445,13 @@
 				7E3C9DCF29D3D4980047D6D6 /* BattleSceneBackground.swift in Sources */,
 				AC8B8CF829D47B7500EBC649 /* SsupTemplateView.swift in Sources */,
 				AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */,
+				7E718B0029D556BC000D1469 /* SoundList.swift in Sources */,
 				7EC8EFF429D2CC17009595D6 /* TestTestView.swift in Sources */,
 				86AB2D0929D3DD26000F3D06 /* LoopingPlayerUIView.swift in Sources */,
 				AC12C02D29D1E77C0074C21C /* TypingEffect.swift in Sources */,
 				7EBC321C29D454010052D98B /* TypeEffectModifier.swift in Sources */,
 				7EE05D6429D46A4E0095A3B9 /* TemplateView.swift in Sources */,
+				7E718AFF29D556BC000D1469 /* SoundSetting.swift in Sources */,
 				ACDDC65A29D0AB7200404216 /* partTestApp.swift in Sources */,
 				7EC6D5B929D434560060134F /* ParticleEffect.swift in Sources */,
 				ACDC653D29D217F500C6C12B /* SiriView.swift in Sources */,
