@@ -80,23 +80,23 @@
 		A99E182B29D57A4500085368 /* Scene17.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E180B29D57A4500085368 /* Scene17.mp4 */; };
 		A99E182C29D57A4500085368 /* Scene14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E180C29D57A4500085368 /* Scene14.mp4 */; };
 		A99E182D29D57A4500085368 /* Scene6_요정아빠_로고.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E180D29D57A4500085368 /* Scene6_요정아빠_로고.png */; };
-		A99E182E29D57A4500085368 /* Scene13.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E180F29D57A4500085368 /* Scene13.png */; };
-		A99E182F29D57A4500085368 /* Scene12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A99E181029D57A4500085368 /* Scene12.jpg */; };
-		A99E183029D57A4500085368 /* Scene15.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E181129D57A4500085368 /* Scene15.png */; };
-		A99E183129D57A4500085368 /* Scene16.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E181229D57A4500085368 /* Scene16.png */; };
-		A99E183229D57A4600085368 /* Scene9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181329D57A4500085368 /* Scene9.mp4 */; };
-		A99E183329D57A4600085368 /* Scene8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181429D57A4500085368 /* Scene8.mp4 */; };
-		A99E183429D57A4600085368 /* Scene2.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E181529D57A4500085368 /* Scene2.png */; };
-		A99E183529D57A4600085368 /* Scene6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181629D57A4500085368 /* Scene6.mp4 */; };
-		A99E183629D57A4600085368 /* Scene5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181729D57A4500085368 /* Scene5.mp4 */; };
-		A99E183729D57A4600085368 /* Scene3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A99E181829D57A4500085368 /* Scene3.jpeg */; };
-		A99E183829D57A4600085368 /* Scene4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181929D57A4500085368 /* Scene4.mp4 */; };
-		A99E183929D57A4600085368 /* Scene0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181A29D57A4500085368 /* Scene0.mp4 */; };
-		A99E183A29D57A4600085368 /* Scene1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181B29D57A4500085368 /* Scene1.mp4 */; };
-		A99E183B29D57A4600085368 /* Scene10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181C29D57A4500085368 /* Scene10.mp4 */; };
-		A99E183C29D57A4600085368 /* Scene11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181D29D57A4500085368 /* Scene11.mp4 */; };
-		A99E183D29D57A4600085368 /* Scene14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181E29D57A4500085368 /* Scene14.mp4 */; };
-		A99E183E29D57A4600085368 /* Scene12(크아앙).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181F29D57A4500085368 /* Scene12(크아앙).mp3 */; };
+		A99E182E29D57A4500085368 /* 썹Scene13.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E180F29D57A4500085368 /* 썹Scene13.png */; };
+		A99E182F29D57A4500085368 /* 썹Scene12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A99E181029D57A4500085368 /* 썹Scene12.jpg */; };
+		A99E183029D57A4500085368 /* 썹Scene15.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E181129D57A4500085368 /* 썹Scene15.png */; };
+		A99E183129D57A4500085368 /* 썹Scene16.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E181229D57A4500085368 /* 썹Scene16.png */; };
+		A99E183229D57A4600085368 /* 썹Scene9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181329D57A4500085368 /* 썹Scene9.mp4 */; };
+		A99E183329D57A4600085368 /* 썹Scene8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181429D57A4500085368 /* 썹Scene8.mp4 */; };
+		A99E183429D57A4600085368 /* 썹Scene2.png in Resources */ = {isa = PBXBuildFile; fileRef = A99E181529D57A4500085368 /* 썹Scene2.png */; };
+		A99E183529D57A4600085368 /* 썹Scene6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181629D57A4500085368 /* 썹Scene6.mp4 */; };
+		A99E183629D57A4600085368 /* 썹Scene5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181729D57A4500085368 /* 썹Scene5.mp4 */; };
+		A99E183729D57A4600085368 /* 썹Scene3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A99E181829D57A4500085368 /* 썹Scene3.jpeg */; };
+		A99E183829D57A4600085368 /* 썹Scene4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181929D57A4500085368 /* 썹Scene4.mp4 */; };
+		A99E183929D57A4600085368 /* 썹Scene0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181A29D57A4500085368 /* 썹Scene0.mp4 */; };
+		A99E183A29D57A4600085368 /* 썹Scene1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181B29D57A4500085368 /* 썹Scene1.mp4 */; };
+		A99E183B29D57A4600085368 /* 썹Scene10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181C29D57A4500085368 /* 썹Scene10.mp4 */; };
+		A99E183C29D57A4600085368 /* 썹Scene11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181D29D57A4500085368 /* 썹Scene11.mp4 */; };
+		A99E183D29D57A4600085368 /* 썹Scene14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181E29D57A4500085368 /* 썹Scene14.mp4 */; };
+		A99E183E29D57A4600085368 /* 썹Scene12(크아앙).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A99E181F29D57A4500085368 /* 썹Scene12(크아앙).mp3 */; };
 		AC12C02729D1DA660074C21C /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02629D1DA660074C21C /* Text+Extension.swift */; };
 		AC12C02B29D1E7130074C21C /* BlinkingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */; };
 		AC12C02D29D1E77C0074C21C /* TypingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12C02C29D1E77C0074C21C /* TypingEffect.swift */; };
@@ -182,23 +182,23 @@
 		A99E180B29D57A4500085368 /* Scene17.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene17.mp4; sourceTree = "<group>"; };
 		A99E180C29D57A4500085368 /* Scene14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene14.mp4; sourceTree = "<group>"; };
 		A99E180D29D57A4500085368 /* Scene6_요정아빠_로고.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scene6_요정아빠_로고.png"; sourceTree = "<group>"; };
-		A99E180F29D57A4500085368 /* Scene13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scene13.png; sourceTree = "<group>"; };
-		A99E181029D57A4500085368 /* Scene12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scene12.jpg; sourceTree = "<group>"; };
-		A99E181129D57A4500085368 /* Scene15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scene15.png; sourceTree = "<group>"; };
-		A99E181229D57A4500085368 /* Scene16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scene16.png; sourceTree = "<group>"; };
-		A99E181329D57A4500085368 /* Scene9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene9.mp4; sourceTree = "<group>"; };
-		A99E181429D57A4500085368 /* Scene8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene8.mp4; sourceTree = "<group>"; };
-		A99E181529D57A4500085368 /* Scene2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scene2.png; sourceTree = "<group>"; };
-		A99E181629D57A4500085368 /* Scene6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene6.mp4; sourceTree = "<group>"; };
-		A99E181729D57A4500085368 /* Scene5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene5.mp4; sourceTree = "<group>"; };
-		A99E181829D57A4500085368 /* Scene3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scene3.jpeg; sourceTree = "<group>"; };
-		A99E181929D57A4500085368 /* Scene4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene4.mp4; sourceTree = "<group>"; };
-		A99E181A29D57A4500085368 /* Scene0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene0.mp4; sourceTree = "<group>"; };
-		A99E181B29D57A4500085368 /* Scene1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene1.mp4; sourceTree = "<group>"; };
-		A99E181C29D57A4500085368 /* Scene10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene10.mp4; sourceTree = "<group>"; };
-		A99E181D29D57A4500085368 /* Scene11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene11.mp4; sourceTree = "<group>"; };
-		A99E181E29D57A4500085368 /* Scene14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scene14.mp4; sourceTree = "<group>"; };
-		A99E181F29D57A4500085368 /* Scene12(크아앙).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Scene12(크아앙).mp3"; sourceTree = "<group>"; };
+		A99E180F29D57A4500085368 /* 썹Scene13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "썹Scene13.png"; sourceTree = "<group>"; };
+		A99E181029D57A4500085368 /* 썹Scene12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "썹Scene12.jpg"; sourceTree = "<group>"; };
+		A99E181129D57A4500085368 /* 썹Scene15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "썹Scene15.png"; sourceTree = "<group>"; };
+		A99E181229D57A4500085368 /* 썹Scene16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "썹Scene16.png"; sourceTree = "<group>"; };
+		A99E181329D57A4500085368 /* 썹Scene9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene9.mp4"; sourceTree = "<group>"; };
+		A99E181429D57A4500085368 /* 썹Scene8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene8.mp4"; sourceTree = "<group>"; };
+		A99E181529D57A4500085368 /* 썹Scene2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "썹Scene2.png"; sourceTree = "<group>"; };
+		A99E181629D57A4500085368 /* 썹Scene6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene6.mp4"; sourceTree = "<group>"; };
+		A99E181729D57A4500085368 /* 썹Scene5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene5.mp4"; sourceTree = "<group>"; };
+		A99E181829D57A4500085368 /* 썹Scene3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "썹Scene3.jpeg"; sourceTree = "<group>"; };
+		A99E181929D57A4500085368 /* 썹Scene4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene4.mp4"; sourceTree = "<group>"; };
+		A99E181A29D57A4500085368 /* 썹Scene0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene0.mp4"; sourceTree = "<group>"; };
+		A99E181B29D57A4500085368 /* 썹Scene1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene1.mp4"; sourceTree = "<group>"; };
+		A99E181C29D57A4500085368 /* 썹Scene10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene10.mp4"; sourceTree = "<group>"; };
+		A99E181D29D57A4500085368 /* 썹Scene11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene11.mp4"; sourceTree = "<group>"; };
+		A99E181E29D57A4500085368 /* 썹Scene14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "썹Scene14.mp4"; sourceTree = "<group>"; };
+		A99E181F29D57A4500085368 /* 썹Scene12(크아앙).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "썹Scene12(크아앙).mp3"; sourceTree = "<group>"; };
 		AC12C02629D1DA660074C21C /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		AC12C02A29D1E7130074C21C /* BlinkingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingEffect.swift; sourceTree = "<group>"; };
 		AC12C02C29D1E77C0074C21C /* TypingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingEffect.swift; sourceTree = "<group>"; };
@@ -308,23 +308,23 @@
 		A99E180E29D57A4500085368 /* 전투 후 (섭) 2 */ = {
 			isa = PBXGroup;
 			children = (
-				A99E180F29D57A4500085368 /* Scene13.png */,
-				A99E181029D57A4500085368 /* Scene12.jpg */,
-				A99E181129D57A4500085368 /* Scene15.png */,
-				A99E181229D57A4500085368 /* Scene16.png */,
-				A99E181329D57A4500085368 /* Scene9.mp4 */,
-				A99E181429D57A4500085368 /* Scene8.mp4 */,
-				A99E181529D57A4500085368 /* Scene2.png */,
-				A99E181629D57A4500085368 /* Scene6.mp4 */,
-				A99E181729D57A4500085368 /* Scene5.mp4 */,
-				A99E181829D57A4500085368 /* Scene3.jpeg */,
-				A99E181929D57A4500085368 /* Scene4.mp4 */,
-				A99E181A29D57A4500085368 /* Scene0.mp4 */,
-				A99E181B29D57A4500085368 /* Scene1.mp4 */,
-				A99E181C29D57A4500085368 /* Scene10.mp4 */,
-				A99E181D29D57A4500085368 /* Scene11.mp4 */,
-				A99E181E29D57A4500085368 /* Scene14.mp4 */,
-				A99E181F29D57A4500085368 /* Scene12(크아앙).mp3 */,
+				A99E180F29D57A4500085368 /* 썹Scene13.png */,
+				A99E181029D57A4500085368 /* 썹Scene12.jpg */,
+				A99E181129D57A4500085368 /* 썹Scene15.png */,
+				A99E181229D57A4500085368 /* 썹Scene16.png */,
+				A99E181329D57A4500085368 /* 썹Scene9.mp4 */,
+				A99E181429D57A4500085368 /* 썹Scene8.mp4 */,
+				A99E181529D57A4500085368 /* 썹Scene2.png */,
+				A99E181629D57A4500085368 /* 썹Scene6.mp4 */,
+				A99E181729D57A4500085368 /* 썹Scene5.mp4 */,
+				A99E181829D57A4500085368 /* 썹Scene3.jpeg */,
+				A99E181929D57A4500085368 /* 썹Scene4.mp4 */,
+				A99E181A29D57A4500085368 /* 썹Scene0.mp4 */,
+				A99E181B29D57A4500085368 /* 썹Scene1.mp4 */,
+				A99E181C29D57A4500085368 /* 썹Scene10.mp4 */,
+				A99E181D29D57A4500085368 /* 썹Scene11.mp4 */,
+				A99E181E29D57A4500085368 /* 썹Scene14.mp4 */,
+				A99E181F29D57A4500085368 /* 썹Scene12(크아앙).mp3 */,
 			);
 			path = "전투 후 (섭) 2";
 			sourceTree = "<group>";
@@ -531,27 +531,27 @@
 				A91FD69629D56459008A6053 /* 13.오- 좋은데요- 바로 가시죠-.mp3 in Resources */,
 				A99E182129D57A4500085368 /* Scene10.png in Resources */,
 				A91FD69329D56459008A6053 /* 섭6.그 순간-- 복사본.mp3 in Resources */,
-				A99E183329D57A4600085368 /* Scene8.mp4 in Resources */,
+				A99E183329D57A4600085368 /* 썹Scene8.mp4 in Resources */,
 				A99E182629D57A4500085368 /* Scene6.mp4 in Resources */,
 				A91FD69429D56459008A6053 /* 2.두잇투잇과 함께하는?CBL 여정을 시작하실래용-.mp3 in Resources */,
 				A91FD6A129D56459008A6053 /* 섭2-1.우리는 설문지 항목을 작성하고 다른 이세계 주민들에게 도움을 요청했다-.mp3 in Resources */,
 				A99E182D29D57A4500085368 /* Scene6_요정아빠_로고.png in Resources */,
-				A99E182F29D57A4500085368 /* Scene12.jpg in Resources */,
+				A99E182F29D57A4500085368 /* 썹Scene12.jpg in Resources */,
 				A91FD69129D56459008A6053 /* 전투9.두잇투잇 팀은 최후의 일격을 날렸다- 거리낌 없이 물어보자-.mp3 in Resources */,
 				A91FD6B429D56459008A6053 /* 전투3.우리는 토론하기를 시전했다- -그럼 이세계 라이프에서만 가져갈 수 있는 것은 뭘까요---.mp3 in Resources */,
 				A91FD69729D56459008A6053 /* 11.앗- 두 갈림길이다-.mp3 in Resources */,
-				A99E183C29D57A4600085368 /* Scene11.mp4 in Resources */,
+				A99E183C29D57A4600085368 /* 썹Scene11.mp4 in Resources */,
 				A91FD69A29D56459008A6053 /* 섭3.설문지 보스는 별안간 체력을 회복하며 -솔루션 보스-가 되어버리고 말았다-.mp3 in Resources */,
 				ACDDC66129D0AB7300404216 /* Preview Assets.xcassets in Resources */,
 				A91FD6B329D56459008A6053 /* 전투1.앗 - 질문 지옥을 지배하는 챌린지 몬스터가 등장했다-.mp3 in Resources */,
-				A99E183229D57A4600085368 /* Scene9.mp4 in Resources */,
+				A99E183229D57A4600085368 /* 썹Scene9.mp4 in Resources */,
 				A91FD68E29D56459008A6053 /* 0.죽어라 닝겐.mp3 in Resources */,
-				A99E182E29D57A4500085368 /* Scene13.png in Resources */,
+				A99E182E29D57A4500085368 /* 썹Scene13.png in Resources */,
 				A91FD69B29D56459008A6053 /* 5.안녕하세요-- 제 이름은-- 썹 입니다-- 저 말고도 다른 분들이 계셨다니-- 이곳은 도대체 어디인가요-.mp3 in Resources */,
-				A99E183429D57A4600085368 /* Scene2.png in Resources */,
+				A99E183429D57A4600085368 /* 썹Scene2.png in Resources */,
 				A91FD69229D56459008A6053 /* 섭8.하하- 구피와 제리를 예비군으로 잡아가겠다-.mp3 in Resources */,
-				A99E183729D57A4600085368 /* Scene3.jpeg in Resources */,
-				A99E183129D57A4500085368 /* Scene16.png in Resources */,
+				A99E183729D57A4600085368 /* 썹Scene3.jpeg in Resources */,
+				A99E183129D57A4500085368 /* 썹Scene16.png in Resources */,
 				A91FD68F29D56459008A6053 /* 섭11.솔루션 보스는 처참하게 쓰러졌다-.mp3 in Resources */,
 				A91FD6A429D56459008A6053 /* 섭13알고보니 우리는 고작 MC1을 끝냈을 뿐이었다-- .mp3 in Resources */,
 				A91FD69D29D56459008A6053 /* 10.던전에서의 첫째날- 우리는 던전의 주제인 -이세계-아카데미- 라이프-를 해결하기 위해 다같이 협력했다-.mp3 in Resources */,
@@ -560,7 +560,7 @@
 				A91FD6A729D56459008A6053 /* 섭7.앗- 솔루션 보스의 하수인- 굳건이가 나타났다-.mp3 in Resources */,
 				A99E182829D57A4500085368 /* Scene0.mp4 in Resources */,
 				A91FD6A329D56459008A6053 /* 전투4.효과는 굉장했다-.mp3 in Resources */,
-				A99E183D29D57A4600085368 /* Scene14.mp4 in Resources */,
+				A99E183D29D57A4600085368 /* 썹Scene14.mp4 in Resources */,
 				A91FD6A029D56459008A6053 /* 섭12.우리는 성공적으로 MC1의 솔루션 보스를 해치울 수 있었고- 이 소문은 빠르게 퍼져나갔다-.mp3 in Resources */,
 				A91FD6AA29D56459008A6053 /* 섭12-1-드디어- 이 던전의 끝이 보이고 있어요-- 다들 조금만 더-- .mp3 in Resources */,
 				86AB2D0F29D3DF0A000F3D06 /* video.mp4 in Resources */,
@@ -568,15 +568,15 @@
 				A91FD6AD29D56459008A6053 /* 전투추가1.두잇투잇 팀은 좌절하지 않았다-.mp3 in Resources */,
 				A99E182429D57A4500085368 /* Scene3.png in Resources */,
 				A91FD6B729D56459008A6053 /* 전투5.챌린지 몬스터는 다시 한 번 과제 공격을 했다-.mp3 in Resources */,
-				A99E183E29D57A4600085368 /* Scene12(크아앙).mp3 in Resources */,
+				A99E183E29D57A4600085368 /* 썹Scene12(크아앙).mp3 in Resources */,
 				A99E182B29D57A4500085368 /* Scene17.mp4 in Resources */,
 				A99E182A29D57A4500085368 /* Scene13.mp4 in Resources */,
 				A91FD69529D56459008A6053 /* 15.그 순간--.mp3 in Resources */,
 				A99E182029D57A4500085368 /* Scene18.mp4 in Resources */,
-				A99E183A29D57A4600085368 /* Scene1.mp4 in Resources */,
+				A99E183A29D57A4600085368 /* 썹Scene1.mp4 in Resources */,
 				A91FD6B029D56459008A6053 /* 18.질문의 길은 사실 질문 지옥이었다.mp3 in Resources */,
-				A99E183629D57A4600085368 /* Scene5.mp4 in Resources */,
-				A99E183929D57A4600085368 /* Scene0.mp4 in Resources */,
+				A99E183629D57A4600085368 /* 썹Scene5.mp4 in Resources */,
+				A99E183929D57A4600085368 /* 썹Scene0.mp4 in Resources */,
 				ACDDC65E29D0AB7300404216 /* Assets.xcassets in Resources */,
 				A91FD6AF29D56459008A6053 /* 전투추가2.챌린지로부터 도망칠 수는 없다--- 챌린지로부터 도망칠 수는 없다--- 챌린지로부터 도망칠 수는 없다--- 챌린지로부터 도망칠 수는 없다--- 챌린지로부터 도망칠 수는 없다--- 100만원-.mp3 in Resources */,
 				A91FD6A229D56459008A6053 /* 전투2.챌린지 몬스터가 과제 공격을 했다-.mp3 in Resources */,
@@ -587,11 +587,11 @@
 				A91FD69F29D56459008A6053 /* 섭2.설문지를 내고 우리는 챌린지를 구체화할 수 있을 것이라 생각했지만- .mp3 in Resources */,
 				A91FD6B529D56459008A6053 /* 전투10.와- 챌린지 몬스터를 해치웠다-.mp3 in Resources */,
 				A91FD6AC29D56459008A6053 /* 전투6.두잇투임 팀은 서로의 의견에 -귀엽게- 반박했다- 이미 존재하는 이세계 라이프 질문 채널의 한계는 무엇이고 왜 쓰는 걸까요--.mp3 in Resources */,
-				A99E183029D57A4500085368 /* Scene15.png in Resources */,
-				A99E183829D57A4600085368 /* Scene4.mp4 in Resources */,
+				A99E183029D57A4500085368 /* 썹Scene15.png in Resources */,
+				A99E183829D57A4600085368 /* 썹Scene4.mp4 in Resources */,
 				A99E182229D57A4500085368 /* Scene5.png in Resources */,
 				A99E182929D57A4500085368 /* Scene7,8.mp4 in Resources */,
-				A99E183B29D57A4600085368 /* Scene10.mp4 in Resources */,
+				A99E183B29D57A4600085368 /* 썹Scene10.mp4 in Resources */,
 				A91FD6B629D56459008A6053 /* 섭9.하하- 다시 돌려주겠다-.mp3 in Resources */,
 				A91FD6B829D56459008A6053 /* 전투8.챌린지 몬스터는 기절한 상태다-.mp3 in Resources */,
 				A91FD69929D56459008A6053 /* 12.흠흠- 저희 지금까지 질문만 했는데- 이번엔 솔루션의 길로 가볼까요-.mp3 in Resources */,
@@ -605,7 +605,7 @@
 				A91FD6B129D56459008A6053 /* 섭10.우리는 잃었던 구피와 제리를 돌려받고- 솔루션 보스의 머리를?겨누고 있던 방아쇠를 당겼다-.mp3 in Resources */,
 				5131AC4C29D5588600F5F4EE /* video.mp4 in Resources */,
 				A99E182C29D57A4500085368 /* Scene14.mp4 in Resources */,
-				A99E183529D57A4600085368 /* Scene6.mp4 in Resources */,
+				A99E183529D57A4600085368 /* 썹Scene6.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,7 +763,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"partTest/Preview Content\"";
-				DEVELOPMENT_TEAM = TK8FVHX9VB;
+				DEVELOPMENT_TEAM = V59QA8T54G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -771,12 +771,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.daum.u1316.partTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayo.MC1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -792,7 +793,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"partTest/Preview Content\"";
-				DEVELOPMENT_TEAM = TK8FVHX9VB;
+				DEVELOPMENT_TEAM = V59QA8T54G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -800,12 +801,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.daum.u1316.partTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayo.MC1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
