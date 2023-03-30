@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FirstHalfView2: View {
+    @State private var isGoingToNextView: Bool = false
     @State private var videoName: [String] = [
         /* 비디오 이름 배열 */
         "video",
@@ -183,7 +184,7 @@ struct FirstHalfView2: View {
                             if lineIndex < lines.count - 1 {
                                 lineIndex += 1
                             } else if lineIndex == lines.count - 1{
-                                // TODO: - "전투씬으로 가거나 후반씬으로 이동시키기"
+                                isGoingToNextView.toggle()
                             }
                         } label: {
                             Text("▶︎  다음")
@@ -199,7 +200,14 @@ struct FirstHalfView2: View {
                         .disabled(isNextButtonDisabled ? true : false)
                     }
             }
-            
+        }
+        .overlay {
+            NavigationLink(isActive: $isGoingToNextView) {
+                BattleSceneBackground()
+                    .navigationBarBackButtonHidden()
+            } label: {
+                EmptyView()
+            }
 
         }
     }
@@ -207,7 +215,9 @@ struct FirstHalfView2: View {
 
 struct FirstHalfView2_Previews: PreviewProvider {
     static var previews: some View {
-        FirstHalfView2()
+        NavigationView {
+            FirstHalfView2()
+        }
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
