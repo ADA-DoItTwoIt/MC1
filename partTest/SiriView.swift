@@ -31,7 +31,7 @@ final class SiriModel {
     static func getAVSpeechUtterance(string: String) -> AVSpeechUtterance {
         let utterance = AVSpeechUtterance(string: string)
         utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-        utterance.rate = 1.5
+        utterance.rate = 0.5
         return utterance
     }
     

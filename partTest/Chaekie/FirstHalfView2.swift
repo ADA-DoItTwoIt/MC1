@@ -177,16 +177,23 @@ struct FirstHalfView2: View {
                                         .cornerRadius(10)
                                         .foregroundColor(Color.black)
                                         .padding([.trailing], 10)
+                                    Text("좋습니다")
+                                        .frame(width: 90, height: 30)
+                                        .background(Color(.systemGray2))
+                                        .cornerRadius(10)
+                                        .foregroundColor(Color.black)
+                                        .padding([.trailing], 10)
+                                    Text("참가할래용")
+                                        .frame(width: 90, height: 30)
+                                        .background(Color(.systemGray2))
+                                        .cornerRadius(10)
+                                        .foregroundColor(Color.black)
                                 }
-                                Text("아니오")
-                                    .frame(width: 90, height: 30)
-                                    .background(Color(.systemGray2))
-                                    .cornerRadius(10)
-                                    .foregroundColor(Color.black)
+                            
                             }
                         }
                         .bold()
-                        .font(.title2)
+                        .font(.title3)
                     })
             } else {
                 
@@ -214,10 +221,12 @@ struct FirstHalfView2: View {
                     }
                     .overlay(alignment: .topLeading) {
                         if lineIndex == 6 || lineIndex == 7 || lineIndex == 8 || lineIndex == 16 {
+                            
                             Image("Scene6_요정아빠_로고")
                                 .resizable()
                                 .frame(width: 100, height: 35)
                                 .offset(x: 48, y: 15)
+                            
                         } else {
                             Text(characterList[lineIndex])
                                 .foregroundColor(lineIndex == 0 ? .red : .black)

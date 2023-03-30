@@ -11,9 +11,10 @@ import SwiftUI
 struct partTestApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//            BackgroundVideoView(forVideoName: "video")
-//            SiriView()
+            NavigationView {
+                FirstHalfView2()
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
