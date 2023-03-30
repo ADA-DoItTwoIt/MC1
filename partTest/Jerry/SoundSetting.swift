@@ -17,9 +17,9 @@ final class SoundSetting: ObservableObject {
         guard let url = Bundle.main.url(forResource: musicName, withExtension: ".mp3") else { return }
         
         do {
-            player?.enableRate = true
             player = try AVAudioPlayer(contentsOf: url)
-            player?.rate = 2.0
+            player?.enableRate = true
+            player?.rate = 1.5
             player?.play()
         } catch let error {
              print("재생하는데 오류가 발생했습니다. \(error.localizedDescription)")

@@ -33,7 +33,6 @@ struct SsupTemplateView: View {
         "video"
         
     ]
-    
     @State private var lineIndex: Int = 0
     @State private var enemyHP: Int = 10
     @State private var displayString: String = ""
@@ -61,7 +60,6 @@ struct SsupTemplateView: View {
         "두잇투잇",
         ""
     ]
-    
     @State private var lines: [String] = [
         /* 여기다가 대사를 넣어주세요 그러면 끝 */
         //0
