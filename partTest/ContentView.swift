@@ -19,6 +19,7 @@ struct ContentView: View {
 //            Image("truck").resizable().scaledToFit()
             Image("landscape mode bubble")
                 .offset(x: -20, y: 120)
+
             
             // text관련내용들
             Text("SSup").nameTextForm() // 이름 위한 form
